@@ -1,5 +1,5 @@
 import './App.css';
-import Navbaar from './components/header/navbaar';
+import Navbaar from './components/header/Navbaar';
 
 function App() {
   return (

@@ -1,7 +1,8 @@
 import React from 'react'
 import "./navbaar.css"
 import SearchIcon from '@mui/icons-material/Search';
-
+import Avatar from '@mui/material/Avatar';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const Navbaar = () => {
   return (
     <header>
@@ -19,7 +20,17 @@ const Navbaar = () => {
          
         </div>
         <div className="right">
+            <div className="nav_btn">
+                <a href=" ">SignIn</a>
+            </div>
+        <div className="cart_btn">
+          <badge badgeContent={4} color="primary">
+              <ShoppingCartIcon id="icon"/>
+          </badge>
+          <p>Cart</p>
 
+        </div>
+        <Avatar className='avatar'/>
         </div>
       </nav>
     </header>

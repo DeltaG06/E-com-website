@@ -1,4 +1,6 @@
+import React from 'react';
 import './App.css';
+
 import Navbaar from './components/header/Navbaar';
 
 function App() {

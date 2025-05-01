@@ -1,8 +1,8 @@
 import React from 'react'
 import "./navbaar.css"
+import SearchIcon from '@mui/icons-material/Search';
 
-
-function Navbaar() {
+const Navbaar = () => {
   return (
     <header>
       <nav>
@@ -10,10 +10,10 @@ function Navbaar() {
           <div className="navlogo">
           <img src="/amazon_PNG25.png" alt="Amazon logo"/>
           </div>
-        <div className="nav_searchbar">
+        <div className="nav_searchbaar">
           <input type="text" name="" id=""/>
           <div className="search_icon">
-            
+              <SearchIcon id = "search" />
           </div>
         </div>
          
